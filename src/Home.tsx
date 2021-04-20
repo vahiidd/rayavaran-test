@@ -1,9 +1,7 @@
 import { makeStyles } from '@material-ui/core';
-import Typography from '@material-ui/core/Typography';
-import Avatar from '@material-ui/core/Avatar';
 import React from 'react';
-import Search from './Search';
 import logo from './Octocat.png';
+import Search from './Search';
 
 const useStyles = makeStyles({
   root: {
