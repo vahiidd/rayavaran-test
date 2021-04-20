@@ -8,7 +8,7 @@ import {
 import GroupIcon from '@material-ui/icons/Group';
 import React, { useEffect, useState } from 'react';
 import { useHistory, useParams } from 'react-router-dom';
-import LoadingSpinner from './LoadingSpinner';
+import LoadingSpinner from '../LoadingSpinner/LoadingSpinner';
 
 interface ProfileType {
   name: null | string;
