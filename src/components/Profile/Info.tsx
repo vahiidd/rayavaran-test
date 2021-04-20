@@ -21,7 +21,7 @@ const Info: React.FC<InfoType> = ({ title, value }) => {
   const classes = useStyles();
   return (
     <div>
-      <Typography variant='h5' className={classes.proTitle}>
+      <Typography variant='h6' className={classes.proTitle}>
         {title}:
       </Typography>
       <Typography className={classes.proValue}>{value}</Typography>

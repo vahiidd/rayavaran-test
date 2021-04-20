@@ -10,7 +10,7 @@ const useStyles = makeStyles({
     height: '300px',
   },
   proDetail: {
-    height: '30vh',
+    height: 'max-content',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'space-around',
